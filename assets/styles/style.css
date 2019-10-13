@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	        align-content: center;
+	background: #ededed;
+}
+
+header {
+	padding: 30px 0;
+}
+
+.row-pagination {
+	margin-top: 20px;
+}
+
+.form {
+	padding: 30px;
+	margin-top: 10%;
+	background: #eee;
+	-webkit-box-shadow: 0px 0px 10px rgba(41, 41, 41, .3);
+		        box-shadow: 0px 0px 10px rgba(41, 41, 41, .3);	
+}
+
+.form form {
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.form label, .form input[type="submit"] {
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.status {
+	margin-top: 10px;
+	color: #FF0000;
+}
+
+*[name="table-sort"] {
+	cursor: pointer;
+}
